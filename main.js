@@ -237,5 +237,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
       },
       "<"
     );
+
+    tl.to(
+      ".bst-animation__info",
+      {
+        duration: 2,
+        opacity: 1,
+      },
+      "<"
+    );
+
   }, 1000);
 });
+
